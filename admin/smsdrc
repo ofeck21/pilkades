@@ -1,0 +1,55 @@
+[gammu]
+device = com5
+connection = at921600
+
+# General SMSD settings, see gammu-smsdrc(5) for detailed description.
+[smsd]
+# SMSD service to use, one of FILES, MYSQL, PGSQL, DBI
+service = sql
+# PIN for SIM card
+PIN = 1234
+# File (or stderr, syslog, eventlog) where information will be logged
+logfile = log.txt
+# Amount of information being logged, each bit mean one level
+debuglevel = 0
+# Configuration for using more phones on same database
+#phoneid = MyPhone1
+# Script to be executed when new message has been received
+#runonreceive = /some/script
+# Commication frequency settings
+commtimeout = 30
+sendtimeout = 30
+#receivefrequency = 0
+
+# Phone communication settings
+#checksecurity = 1
+#resetfrequency = 0
+
+# Delivery report configuration
+#deliveryreport = no
+#deliveryreportdelay = 10
+
+# Ignoring broken SMSC
+#skipsmscnumber = +48602123456
+
+# Database backends congfiguration
+user = root
+password = 
+pc = localhost
+# pc can also contain port or socket path after colon (eg. localhost:/path/to/socket)
+database = pilkades
+
+# DBI configuration
+driver = native_mysql
+# driverspath = /usr/lib/dbd/
+# Database directory for sqlite
+# dbdir = /var/lib/smsd
+
+# Files backend configuration
+#inboxpath = /var/spool/sms/inbox/
+#outboxpath = /var/spool/sms/outbox/
+#sentsmspath = /var/spool/sms/sent/
+#errorsmspath = /var/spool/sms/error/
+#inboxformat = unicode
+#transmitformat = auto
+#outboxformat = detail

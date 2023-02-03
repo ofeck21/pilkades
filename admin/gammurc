@@ -1,0 +1,4 @@
+[gammu]
+
+device = com5
+connection = at921600

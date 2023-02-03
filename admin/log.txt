@@ -1,0 +1,20 @@
+Sat 2018/07/07 08:29:05 gammu-smsd[2732]: mysql service is deprecated. Please use SQL service with correct driver.
+Sat 2018/07/07 08:29:06 gammu-smsd[2732]: Error connecting to database!
+Sat 2018/07/07 08:29:06 gammu-smsd[2732]: Error code: 2003, Error: Can't connect to MySQL server on 'localhost' (10061)
+Sat 2018/07/07 08:29:07 gammu-smsd[2732]: Initialisation failed, stopping Gammu smsd: Unknown error. (UNKNOWN[27])
+Sat 2018/07/07 08:29:30 gammu-smsd[4208]: mysql service is deprecated. Please use SQL service with correct driver.
+Sat 2018/07/07 08:29:32 gammu-smsd[4208]: Error connecting to database!
+Sat 2018/07/07 08:29:32 gammu-smsd[4208]: Error code: 2003, Error: Can't connect to MySQL server on 'localhost' (10061)
+Sat 2018/07/07 08:29:33 gammu-smsd[4208]: Initialisation failed, stopping Gammu smsd: Unknown error. (UNKNOWN[27])
+Sat 2018/07/07 08:30:23 gammu-smsd[13832]: Unknown DB driver
+Sat 2018/07/07 08:30:54 gammu-smsd[15780]: Connected to Database: smsku on localhost
+Sat 2018/07/07 08:30:55 gammu-smsd[15780]: Database structure is from newer Gammu version
+Sat 2018/07/07 08:30:55 gammu-smsd[15780]: Please update Gammu to use this database
+Sat 2018/07/07 08:30:55 gammu-smsd[15780]: Initialisation failed, stopping Gammu smsd: Unknown error. (UNKNOWN[27])
+Sat 2018/07/07 08:32:40 gammu-smsd[3016]: Connected to Database: smsku on localhost
+Sat 2018/07/07 08:32:40 gammu-smsd[3016]: Connected to Database native_mysql: smsku on localhost
+Sat 2018/07/07 08:32:40 gammu-smsd[3016]: Created Windows RW shared memory at 00680000
+Sat 2018/07/07 08:32:40 gammu-smsd[3016]: Starting phone communication...
+Sat 2018/07/07 08:32:49 gammu-smsd[3016]: Inserting phone info
+Sat 2018/07/07 08:32:50 gammu-smsd[3016]: Read 7 messages
+Sat 2018/07/07 08:33:22 gammu-smsd[3016]: Terminating communication...
